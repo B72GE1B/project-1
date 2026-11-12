@@ -1402,7 +1402,6 @@ footer .container .section h2 {
 @media(max-width: 768px) {
     footer .container .section {
         padding-right: 20px;
-        margin: auto;
         margin-bottom: 20px;
     }
 }
