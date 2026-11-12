@@ -98,7 +98,6 @@ header .container .logo-name {
     margin-top: 4px;
     text-align: center;
     padding-top: 5px;
-
 }
 
 @media(min-width: 769px) and (max-width: 991px) {
@@ -333,6 +332,7 @@ header .container .social i {
     color: white;
     border-radius: 10px;
     text-align: center;
+    padding: 10px;
 }
 
 @media(max-width: 768px) {
@@ -555,8 +555,9 @@ header .container .social i {
 .all-services .service h3 {
     margin-bottom: 15px;
     background-color: var(--main-color);
-    padding: 5px 0;
+    padding: 20px 10px;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 .all-services .service p {
@@ -774,12 +775,12 @@ header .container .social i {
 
 .courses .section-desc {
     font-size: 25px;
-    width: 40%;
+    width: 70%;
     margin: 20px auto 50px;
     border-radius: 10px;
     color: gold;
     background-color: firebrick;
-    padding: 10px 0;
+    padding: 20px;
 }
 
 .courses .all-courses {
@@ -839,7 +840,7 @@ header .container .social i {
     padding-right: 15px;
 }
 
-.course-price div :last-child {
+.course-price div:last-child {
     color: var(--main-color);
     font-weight: 700;
     text-decoration: line-through;
@@ -1274,8 +1275,8 @@ hr {
     color: gold;
     background-color: var(--main-color);
     font-size: large;
-    width: 40%;
-    padding: 10px 0;
+    width: 70%;
+    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
@@ -1342,6 +1343,10 @@ hr {
     margin-bottom: 10px;
 }
 
+.testimonials .container .testimonial p {
+    background-color: #eee;
+}
+
 .testimonials .container .testimonial .title-testimonial {
     margin-bottom: 15px;
 }
@@ -1377,8 +1382,7 @@ footer .container {
     /* background-color: rgba(68, 57, 57, 0.5); */
     background-color: rgba(12, 11, 2, 0.507);
     border: solid white;
-    padding: 20px 0;
-    padding-right: 20px;   
+    padding: 20px; 
 }
 
 footer .container .section {
@@ -1398,6 +1402,7 @@ footer .container .section h2 {
 @media(max-width: 768px) {
     footer .container .section {
         padding-right: 20px;
+        margin: auto;
         margin-bottom: 20px;
     }
 }
@@ -1407,13 +1412,18 @@ footer .container .section p {
     margin-top: 15px;
     line-height: 1.8;
     width: 90%;
-    height: 70%;;
+    height: 70%;
     padding-top: 10px; 
     border-radius: 10%;
     border: groove var(--main-color) 4px;
     font-weight: bold;
     text-shadow: 0 2px 5px gold;
 }    
+
+footer .container .section:nth-child(2) li a {
+    background: none;
+    color: white;
+}
 
 footer .container .section:nth-child(2) h2 ,
 footer .container .section:nth-child(4) h2 {
@@ -1441,7 +1451,7 @@ footer .container .section a {
 
 footer .container .section a::after {
     content: "\f0d9";
-    font-family: "font awesome 5 free";
+    font-family: "Font Awesome 5 free";
     font-weight: 900;
     position: absolute;
     color: var(--main-color);
@@ -1460,7 +1470,7 @@ footer .container .section a:hover {
 .letter form {
     display: flex;
     flex-direction: column;
-    margin: 15px;
+    margin: auto;
 }
 
 .letter form input[type = "text"],
